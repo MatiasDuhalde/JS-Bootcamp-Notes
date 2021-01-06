@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timer</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+<body>
+    <div class="timer">
+        <div class="controls">
+            <input type="text" name="" id="duration">
+            <div>
+                <button id="start"><i class="fas fa-play"></i></button>
+                <button id="pause"><i class="fas fa-pause"></i></button>
+            </div>
+        </div>
+        <svg class="dial">
+            <circle
+                r="190"
+                cx="0"
+                cy="200"
+                transform="rotate(-90 100 100)"
+                fill="transparent"
+                stroke="green"
+                stroke-width="10"
+            />
+        </svg>
+    </div>
+    <script src="timer.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
