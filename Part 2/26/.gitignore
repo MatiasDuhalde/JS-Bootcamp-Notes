@@ -1,0 +1,8 @@
+
+# JSON data files
+
+products.json
+users.json
+
+# Node Modules
+node_modules/
