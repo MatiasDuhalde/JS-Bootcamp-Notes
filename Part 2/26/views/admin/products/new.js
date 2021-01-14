@@ -31,5 +31,5 @@ module.exports = ({ errors }) => {
             </div>
         </div>
         `
-    })
+    });
 }
