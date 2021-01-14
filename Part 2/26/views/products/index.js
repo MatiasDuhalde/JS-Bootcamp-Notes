@@ -1,8 +1,7 @@
 const layout = require('../layout');
 
 module.exports = ({ products }) => {
-    const renderedProducts = products
-        .map(product => {
+    const renderedProducts = products.map(product => {
         return `
         <div class="column is-one-quarter">
             <div class="card product-card">
